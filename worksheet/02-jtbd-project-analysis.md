@@ -1,15 +1,15 @@
 ---
-artifact: 02 — JTBD Project Analysis
+
+## artifact: 02 — JTBD Project Analysis
 bai-tap: Lab 2 — Dùng JTBD để soi lại dự án nhóm
 format: Theo nhóm dự án → share trong bàn → chốt hypothesis cuối
 time: 25 phút trên lớp
 nop-cuoi: Có — đây là file nộp cuối của Lab 2
 companion-reference: Strategyn_JTBD_Playbook.pdf (giảng viên gửi kèm)
----
 
 # Lab 2 — JTBD Project Analysis / Dùng JTBD để soi lại dự án nhóm
 
-**Tên dự án / sản phẩm:** _______________  
+**Tên dự án / sản phẩm:** Arionear (C2-App-040) — *Closer to Publication*
 
 > Đây là **file duy nhất** của Lab 2.  
 > File này đồng thời đóng vai trò:
@@ -33,7 +33,7 @@ Quy tắc xuyên suốt: **không rõ job thì đừng bàn feature.**
 ## Cần mở song song 2 thứ
 
 1. **File này** — để điền trực tiếp
-2. **`Strategyn_JTBD_Playbook.pdf`** — giảng viên gửi kèm
+2. `**Strategyn_JTBD_Playbook.pdf`** — giảng viên gửi kèm
 
 ### Cách dùng playbook cho đúng
 
@@ -41,10 +41,10 @@ Bạn **không cần đọc hết 48 trang**.
 Trong bài này, playbook chủ yếu dùng để tra 4 thứ:
 
 1. **Cách nhìn thị trường qua JTBD lens**
-2. **`Job executor` là ai**
+2. `**Job executor` là ai**
 3. **Cách viết `job statement`: `verb + object + contextual clarifier`**
 4. **8 bước của `job map`**:
-   `define -> locate -> prepare -> confirm -> execute -> monitor -> modify -> conclude`
+  `define -> locate -> prepare -> confirm -> execute -> monitor -> modify -> conclude`
 
 ### 2 chương nên mở nhiều nhất
 
@@ -60,12 +60,12 @@ Trong bài này, playbook chủ yếu dùng để tra 4 thứ:
 
 Người chấm cần thấy đủ 6 phần trong chính file này:
 
-1. **`Project slice` + market context**
-2. **`Job executor` + `core JTBD`**
+1. `**Project slice` + market context**
+2. `**Job executor` + `core JTBD`**
 3. **3 `job stories`**
-4. **`JTBD lite map` + pain points**
-5. **`AI leverage point` + `product hypothesis`**
-6. **`Assumptions to validate` + verdict cuối sau thảo luận**
+4. `**JTBD lite map` + pain points**
+5. `**AI leverage point` + `product hypothesis`**
+6. `**Assumptions to validate` + verdict cuối sau thảo luận**
 
 Nếu thiếu một trong sáu phần trên, bài sẽ bị xem là chưa hoàn chỉnh.
 
@@ -92,25 +92,27 @@ Phần lớn dự án nhóm viết quá rộng ở bước này, rồi sau đó 
 
 ### Khoanh đúng 1 lát cắt theo 4 điểm
 
-- [ ] **1 nhóm người dùng chính**
-- [ ] **1 hoàn cảnh / tình huống rõ**
-- [ ] **1 job cốt lõi**
-- [ ] **1 workflow đủ cụ thể để vẽ ra được**
+- **1 nhóm người dùng chính**
+- **1 hoàn cảnh / tình huống rõ**
+- **1 job cốt lõi**
+- **1 workflow đủ cụ thể để vẽ ra được**
 
 ### Điền nhanh trước khi làm
 
-- **Dự án của nhóm tôi là:** ___________________________________
-- **Lát cắt tôi chọn để phân tích hôm nay là:** ___________________________________
+- **Dự án của nhóm là:** Arionear — nền tảng Assisted Editing giúp researcher cải thiện bản thảo LaTeX học thuật với AI (Ario), có Human Gate diff + guardrail chống fabrication
+- **Lát cắt tôi chọn để phân tích hôm nay là:** Graduate student / postdoc đang chỉnh sửa bản thảo LaTeX **trước deadline nộp journal** — cần polish văn phong + kiểm tra citation mà không làm sai lệch ý nghĩa khoa học
 - **Vì sao tôi chọn lát cắt này:**  
-  > ___________________________________
+  > Đây là workflow MVP đã code (editor + style agent + citation verifier + diff gate). Không phân tích "sinh bài từ ý tưởng" (Arionear cố ý không làm) hay peer-review response (P2) — tránh viết quá rộng.
 
 ### Viết quá rộng vs viết sắc hơn
 
-| Viết quá rộng | Viết sắc hơn |
-|---|---|
-| Giúp SME dùng AI để marketing | Giúp chủ shop online phản hồi câu hỏi trước mua hàng nhanh và nhất quán trong giờ cao điểm |
-| Dùng AI để làm slide | Tạo bản nháp deck nội bộ mạch lạc cho buổi họp gấp trong thời gian rất ngắn |
-| AI cho tuyển dụng | Giúp recruiter sàng lọc CV đầu vào nhanh hơn trước vòng gọi sơ bộ |
+
+| Viết quá rộng                        | Viết sắc hơn                                                                                          |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------------- |
+| Giúp researcher dùng AI viết bài báo | Giúp postdoc polish văn phong + verify citation trên bản thảo LaTeX có sẵn trước deadline nộp journal |
+| Dùng AI để làm slide                 | Tạo bản nháp deck nội bộ mạch lạc cho buổi họp gấp trong thời gian rất ngắn                           |
+| AI cho tuyển dụng                    | Giúp recruiter sàng lọc CV đầu vào nhanh hơn trước vòng gọi sơ bộ                                     |
+
 
 > Nếu bạn không mô tả được **một hoàn cảnh cụ thể**, khả năng cao bạn đang viết quá rộng.
 
@@ -120,14 +122,12 @@ Phần lớn dự án nhóm viết quá rộng ở bước này, rồi sau đó 
 
 ### Tóm tắt dự án trong 3 dòng
 
-1. **Nhóm tôi đang nghĩ mình đang giải quyết vấn đề gì?**  
-   > ___________________________________
-
-2. **Người dùng chính hiện nhóm đang nhắm tới là ai?**  
-   > ___________________________________
-
-3. **Hiện tại người dùng đó đang giải quyết vấn đề này bằng cách nào?**  
-   > ___________________________________
+1. **Nhóm tôi đang nghĩ mình đang giải quyết vấn đề gì?**
+  > Researcher mất nhiều thời gian chỉnh văn phong học thuật, kiểm tra trích dẫn và sửa LaTeX — đồng thời lo AI generic (ChatGPT) sẽ bịa số liệu hoặc thay đổi claim khoa học nếu dùng không kiểm soát.
+2. **Người dùng chính hiện nhóm đang nhắm tới là ai?**
+  > Nhà nghiên cứu (graduate student, postdoc, young faculty) đang soạn bản thảo tiếng Anh dạng LaTeX, chuẩn bị nộp journal/conference.
+3. **Hiện tại người dùng đó đang giải quyết vấn đề này bằng cách nào?**
+  > Overleaf + tự sửa tay; hỏi ChatGPT/Copilot (copy-paste đoạn văn, mất context); nhờ đồng nghiệp/biên tập viên đọc; Grammarly (không hiểu học thuật); kiểm tra DOI thủ công trên Google Scholar/CrossRef.
 
 ---
 
@@ -138,22 +138,18 @@ Phần lớn dự án nhóm viết quá rộng ở bước này, rồi sau đó 
 
 ### Trả lời 4 câu ngắn
 
-1. **Ai đang gặp vấn đề này?**  
-   > ___________________________________
-
-2. **Vấn đề xuất hiện trong hoàn cảnh nào?**  
-   > ___________________________________
-
-3. **Hiện tại họ đang dùng giải pháp thay thế nào?**  
-   > ___________________________________
-
-4. **Vì sao đây là thời điểm đáng giải?**  
-   > ___________________________________
+1. **Ai đang gặp vấn đề này?**
+  > Graduate student / postdoc viết paper tiếng Anh, thường không phải native speaker, deadline journal gấp, ít kinh nghiệm biên tập học thuật chuyên nghiệp.
+2. **Vấn đề xuất hiện trong hoàn cảnh nào?**
+  > Sau khi có draft Methods/Results xong, trước 1–2 tuần deadline nộp — cần polish toàn bộ manuscript (intro, abstract, discussion) + đảm bảo citations đúng format và tồn tại thật.
+3. **Hiện tại họ đang dùng giải pháp thay thế nào?**
+  > Overleaf (soạn + compile); ChatGPT/Claude (copy-paste từng đoạn, không có guardrail); Grammarly Premium; đồng nghiệp đọc feedback; kiểm tra DOI thủ công; thuê language editing service ($200–500/paper).
+4. **Vì sao đây là thời điểm đáng giải?**
+  > 84% dev/researcher dùng AI tools (Stack Overflow Survey 2024) — nhưng generic AI không có guardrail học thuật, gây lo ngại fabrication. Journal ngày càng yêu cầu AI disclosure. Cần công cụ "AI editor" trong workflow LaTeX, không phải chatbot tách rời manuscript.
 
 ### Tóm tắt market context trong 3-4 dòng
 
-> _______________________________________________  
-> _______________________________________________
+> Thị trường: researcher non-native English đang polish bản thảo LaTeX trước deadline nộp journal. Họ đã thử ChatGPT nhưng sợ AI thay đổi claim/số liệu; Overleaf không có AI editing có guardrail; language editing service đắt và chậm. Thời điểm đáng giải vì AI adoption cao nhưng thiếu công cụ "assisted editing" hiểu ngữ cảnh manuscript + có human gate — đúng khoảng trống Arionear nhắm tới.
 
 ---
 
@@ -174,9 +170,9 @@ Phần lớn dự án nhóm viết quá rộng ở bước này, rồi sau đó 
 
 ### Điền
 
-- **Job executor của dự án này là:** ___________________________________
+- **Job executor của dự án này là:** Graduate student / postdoc đang trực tiếp soạn và chỉnh sửa bản thảo LaTeX của mình
 - **Vì sao tôi tin đây là người trực tiếp "thuê" giải pháp để làm job:**  
-  > ___________________________________
+  > Họ là người ngồi trong editor, bôi đen đoạn cần sửa, Accept/Reject diff, và chịu trách nhiệm nộp bài. PI/advisor có thể influence nhưng không phải daily user. Language editing service là outsourced alternative, không phải executor.
 
 ---
 
@@ -194,29 +190,30 @@ Phần lớn dự án nhóm viết quá rộng ở bước này, rồi sau đó 
 
 - Chưa tốt: `trả lời inbox bằng AI`
 - Tốt hơn: `giải quyết câu hỏi trước mua hàng nhanh và chính xác trong giờ cao điểm`
-
 - Chưa tốt: `dùng AI để viết nội dung`
 - Tốt hơn: `tạo bản nháp nội dung chiến dịch phù hợp với brand trong thời gian rất ngắn`
 
 ### 3 tiêu chí tự kiểm
 
-- [ ] Nếu bỏ tool hiện tại đi, job này vẫn còn tồn tại
-- [ ] Trong câu không có tên sản phẩm, AI, chatbot, app, màn hình
-- [ ] Câu đang mô tả **điều user muốn hoàn thành**, không phải thứ product đang làm
+- Nếu bỏ tool hiện tại đi, job này vẫn còn tồn tại
+- Trong câu không có tên sản phẩm, AI, chatbot, app, màn hình
+- Câu đang mô tả **điều user muốn hoàn thành**, không phải thứ product đang làm
 
 ### Bản nháp 1
 
 **Core JTBD bản nháp:**  
-> _______________________________________________
+
+> Cải thiện chất lượng bản thảo học thuật bằng AI editor trong LaTeX workspace trước khi nộp journal
 
 ### Gạch bỏ từ solution nếu có
 
-- Các từ solution tôi đang lỡ nhét vào câu: _________________________________
+- Các từ solution tôi đang lỡ nhét vào câu: AI editor, LaTeX workspace
 
 ### Bản chốt
 
 **Core JTBD cuối cùng:**  
-> _______________________________________________
+
+> **Nâng chất lượng bản thảo học thuật (văn phong, cấu trúc, trích dẫn) để sẵn sàng nộp tạp chí — mà không làm sai lệch ý nghĩa khoa học hay số liệu gốc**
 
 ---
 
@@ -237,17 +234,19 @@ When [trigger], I want to [motivation], so I can [outcome].
 
 ### Bảng 3 job stories
 
-| # | Trigger / When | Motivation / I want to | Outcome / so I can | Điều story này cho thấy |
-|---|---|---|---|---|
-| JS1 | | | | |
-| JS2 | | | | |
-| JS3 | | | | |
+
+| #   | Trigger / When                                                                         | Motivation / I want to                                                             | Outcome / so I can                                                                                  | Điều story này cho thấy                                                                       |
+| --- | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| JS1 | Khi tôi bôi đen một đoạn Discussion viết vội, ngữ pháp lủng củng trước deadline 5 ngày | Tôi muốn có bản chỉnh văn phong học thuật chuẩn mà **giữ nguyên claim và số liệu** | So I can nộp bài mà không sợ reviewer bắt lỗi language hoặc AI đã thay đổi kết quả                  | Product xuất hiện ở **Quick Edit + Style Agent + diff gate** — user phải Accept từng thay đổi |
+| JS2 | Khi tôi hoàn thành draft và cần kiểm tra 40+ citations trong `.bib` trước nộp          | Tôi muốn biết citation nào broken/mismatch mà không phải mở từng DOI trên browser  | So I can fix BibTeX nhanh và tránh embarrassment khi reviewer phát hiện reference giả               | Product xuất hiện ở **Citation Verifier** (arXiv → CrossRef → Semantic Scholar)               |
+| JS3 | Khi LaTeX compile fail lúc 2h sáng, log lỗi dài và khó hiểu                            | Tôi muốn hiểu lỗi và có gợi ý sửa ngay trong ngữ cảnh file đang mở                 | So I can compile thành công PDF mà không phải tab-out sang Stack Overflow hay ChatGPT (mất context) | Product xuất hiện ở **"Ask Ario to fix"** với compile log + full manuscript context           |
+
 
 ### Tự kiểm nhanh
 
-- [ ] Mỗi story là một **tình huống thật**, không phải slogan chung chung
-- [ ] 3 story không trùng hệt nhau
-- [ ] Sau khi đọc 3 story, tôi hình dung được lúc nào product của mình đáng xuất hiện
+- Mỗi story là một **tình huống thật**, không phải slogan chung chung
+- 3 story không trùng hệt nhau
+- Sau khi đọc 3 story, tôi hình dung được lúc nào product của mình đáng xuất hiện
 
 ---
 
@@ -266,16 +265,19 @@ Qua JTBD lens, đối thủ không chỉ là app cùng ngành.
 
 ### Bảng alternatives
 
-| Alternative hiện tại | User đang thuê nó để làm gì? | Nó làm tốt gì? | Nó fail ở đâu? | Switching cost hiện tại cao hay thấp? |
-|---|---|---|---|---|
-| Alt 1 | | | | |
-| Alt 2 | | | | |
-| Alt 3 | | | | |
+
+| Alternative hiện tại                           | User đang thuê nó để làm gì?                | Nó làm tốt gì?                                         | Nó fail ở đâu?                                                                                            | Switching cost hiện tại cao hay thấp?                       |
+| ---------------------------------------------- | ------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| Alt 1: ChatGPT / Claude (copy-paste)           | Polish văn phong, hỏi cấu trúc, debug LaTeX | Nhanh, free/cheap, đa năng                             | Không có manuscript context; không guardrail — có thể bịa số liệu/thay claim; user phải tự so sánh output | **Thấp** — đã quen, chỉ cần mở tab mới                      |
+| Alt 2: Overleaf + tự sửa tay                   | Soạn LaTeX, compile PDF, collaborate        | Workflow chuẩn cộng đồng; compile ổn; real-time collab | Không có AI editing; không citation verify; polish language chậm                                          | **Trung bình** — project đã ở Overleaf, migrate có friction |
+| Alt 3: Language editing service (AJE, Editage) | Professional polish toàn bộ manuscript      | Chất lượng cao, reviewer-trusted                       | Đắt ($200–500); chậm (3–7 ngày); không tích hợp LaTeX workflow; không verify citation real-time           | **Cao** — đã trả tiền, chờ kết quả                          |
+
 
 ### Kết luận nhanh
 
 **Nếu project của tôi biến mất hôm nay, user nhiều khả năng sẽ quay về:**  
-> _______________________________________________
+
+> ChatGPT copy-paste từng đoạn (vì free + instant) kết hợp Overleaf để compile — chấp nhận rủi ro AI thay đổi claim vì không có alternative tốt hơn ở mức giá 0.
 
 ---
 
@@ -308,25 +310,27 @@ Mục tiêu là nhìn ra:
 
 ### Bảng JTBD Lite Map
 
-| Step | Trong workflow này user đang cố làm gì? | Hôm nay họ đang dùng gì? | Friction / pain hiện tại | Mức đau |
-|---|---|---|---|---|
-| Define | | | | Low / Med / High |
-| Locate | | | | Low / Med / High |
-| Prepare | | | | Low / Med / High |
-| Confirm | | | | Low / Med / High |
-| Execute | | | | Low / Med / High |
-| Monitor | | | | Low / Med / High |
-| Modify | | | | Low / Med / High |
-| Conclude | | | | Low / Med / High |
+
+| Step     | Trong workflow này user đang cố làm gì?                                           | Hôm nay họ đang dùng gì?                                                 | Friction / pain hiện tại                                                          | Mức đau  |
+| -------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------- | -------- |
+| Define   | Xác định section nào cần polish trước (abstract? discussion? toàn bộ?)            | Tự đọc lại draft, hỏi advisor, hoặc theo journal checklist               | Không có framework ưu tiên — user không biết bắt đầu từ đâu khi còn 5 ngày        | Med      |
+| Locate   | Tìm đoạn văn / citation / lỗi LaTeX cần sửa trong manuscript dài                  | Scroll trong Overleaf; Ctrl+F; outline thủ công                          | Manuscript 6000+ từ, khó locate weak paragraph hoặc broken cite key               | Med      |
+| Prepare  | Chuẩn bị context để gửi cho AI hoặc editor (copy đoạn + surrounding context)      | Copy-paste từng đoạn sang ChatGPT; hoặc gửi cả file cho language service | Mất context khi copy-paste; ChatGPT không thấy `.bib`, figures, toàn bộ structure | **High** |
+| Confirm  | Xác nhận suggestion không thay đổi ý nghĩa khoa học trước khi apply               | Đọc lại thủ công từng câu AI suggest; so sánh side-by-side trong 2 tab   | Tốn thời gian; dễ miss subtle change (số liệu, claim); không có diff view chuẩn   | **High** |
+| Execute  | Apply thay đổi vào bản thảo LaTeX                                                 | Paste lại vào Overleaf; hoặc accept track changes từ editor service      | LaTeX syntax dễ break khi paste; formatting bị mất; phải compile lại nhiều lần    | Med      |
+| Monitor  | Kiểm tra kết quả sau khi sửa (compile OK? citation còn đúng? meaning giữ nguyên?) | Compile PDF; đọc lại; chạy citation check thủ công                       | Không có automated integrity check; user phải tự phát hiện regression             | Med      |
+| Modify   | Iteratively sửa lại nếu suggestion chưa đúng                                      | Quay lại ChatGPT hỏi lại; hoặc email editor service                      | Mất context giữa các vòng; không có revision history gắn với từng đoạn            | Med      |
+| Conclude | Export final PDF + BibTeX, sẵn sàng submit journal portal                         | Overleaf compile → download PDF; upload lên journal                      | N/A nếu các bước trên đã OK — bước này ít pain nếu manuscript sạch                | Low      |
+
 
 ### Chốt 2 bước đau nhất
 
-**Bước đau nhất #1:** _________________________________  
-**Bước đau nhất #2:** _________________________________
+**Bước đau nhất #1:** Prepare — mất context khi copy-paste sang AI generic, không có full manuscript + `.bib` trong một workspace  
+**Bước đau nhất #2:** Confirm — không có cách nhanh để verify AI suggestion không thay đổi claim/số liệu; so sánh thủ công 2 tab rất chậm
 
 **Vì sao đây là nơi đáng chú ý nhất:**  
-> _______________________________________________  
-> _______________________________________________
+
+> Đây chính xác là khoảng trống Arionear lấp: editor có full LaTeX context + diff gate (L3) + integrity check (L2). Generic ChatGPT mạnh ở Execute (viết nhanh) nhưng fail ở Prepare và Confirm — hai bước quan trọng nhất với academic integrity.
 
 ---
 
@@ -343,18 +347,22 @@ Sau khi map workflow, mới hỏi:
 
 ### Bảng leverage point
 
-| Step | AI nên giúp bằng cách nào? | Vì sao AI hợp ở đây? | Rủi ro chính nếu dùng AI |
-|---|---|---|---|
-| 1 | | | |
-| 2 | | | |
+
+| Step              | AI nên giúp bằng cách nào?                                                                                                                                                                     | Vì sao AI hợp ở đây?                                                                                                                            | Rủi ro chính nếu dùng AI                                                                |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| Prepare + Confirm | Style Agent đọc **selection + surrounding LaTeX + `.bib` context** → đề xuất polish qua **inline diff**; Integrity Monitor (L2) check numeric drift + semantic containment trước khi show diff | AI hiểu ngữ cảnh manuscript — điều ChatGPT copy-paste không làm được; diff + Accept/Reject giải pain Confirm; guardrail giải rủi ro fabrication | LLM vẫn có thể subtly paraphrase làm lệch claim; L2 threshold cần calibrate theo domain |
+| Locate + Monitor  | Citation Verifier batch-check toàn bộ cite keys; Structure Analyzer flag section imbalance; compile error → "Ask Ario to fix" với log context                                                  | Deterministic checks (L1–3 citation) không hallucinate; LLM chỉ dùng cho advisory structure/fix suggestion                                      | Citation L4 (LLM relevance) chưa có — có thể miss "cite đúng nhưng không support claim" |
+
 
 ### Kết luận nhanh
 
 **AI leverage point quan trọng nhất của dự án tôi là:**  
-> _______________________________________________
+
+> **Prepare → Confirm loop trong editor:** AI đọc full manuscript context, đề xuất thay đổi qua diff có guardrail, user Accept/Reject từng đoạn — thay thế workflow "copy-paste ChatGPT → so sánh thủ công 2 tab".
 
 **Vì sao không phải ở bước khác:**  
-> _______________________________________________
+
+> Define/Locate: user judgment, AI chỉ advisory (structure suggestions). Execute: LaTeX compile là deterministic, không cần LLM. Conclude: export PDF đã có. Pain thật nằm ở **chuẩn bị context + xác nhận an toàn** — không phải ở viết nhanh (ChatGPT đã làm tốt).
 
 ---
 
@@ -373,13 +381,15 @@ vì [giá trị rõ nhất].
 
 ### Bản hypothesis của tôi
 
-> _______________________________________________  
-> _______________________________________________
+> Nếu chúng ta giúp **graduate student/postdoc** làm job **nâng chất lượng bản thảo học thuật** tốt hơn ở bước **Prepare + Confirm**,
+> bằng cách **Style Agent với full LaTeX context + inline diff + integrity guardrail (L1–L3)**,
+> thì họ sẽ chuyển từ **ChatGPT copy-paste + so sánh thủ công** sang **Arionear editor**,
+> vì **họ polish nhanh hơn mà không phải lo AI thay đổi claim/số liệu — mọi thay đổi visible và reversible**.
 
 ### Tín hiệu sớm nếu hypothesis này đúng
 
-1. _______________________________________________
-2. _______________________________________________
+1. User dùng Quick Edit / Style Agent ≥3 lần/session thay vì mở tab ChatGPT
+2. Accept rate trên diff suggestions ≥60% (user tin suggestion đủ để apply, không reject hết vì sợ)
 
 ---
 
@@ -397,17 +407,19 @@ Job story chưa có research vẫn chỉ là **giả thuyết tốt hơn**, chư
 
 ### Bảng assumptions
 
-| Assumption | Vì sao assumption này rủi ro? | Tôi đang có bằng chứng gì? | Cần validate bằng cách nào tiếp theo? |
-|---|---|---|---|
-| A1 | | | |
-| A2 | | | |
-| A3 | | | |
-| A4 | | | |
-| A5 | | | |
+
+| Assumption                                                | Vì sao assumption này rủi ro?                                             | Tôi đang có bằng chứng gì?                                 | Cần validate bằng cách nào tiếp theo?                               |
+| --------------------------------------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------- |
+| A1: Job executor là postdoc/GS chỉnh LaTeX trước deadline | PI hoặc lab manager có thể là buyer thực sự; GS chỉ dùng free tier        | Team member là researcher; READMETEMP mô tả user flow      | Interview 5 GS/postdoc: "Ai quyết định tool? Ai ngồi sửa?"          |
+| A2: Pain Prepare+Confirm đủ đau để đổi tool               | ChatGPT free đã "đủ tốt" cho nhiều người; họ chấp nhận rủi ro fabrication | Anecdotal từ team; chưa có user research                   | Survey: "Bạn lo gì nhất khi dùng ChatGPT sửa paper?" + frequency    |
+| A3: User sẽ migrate từ Overleaf sang Arionear             | Overleaf có network effect (collab, templates); switching cost cao        | Arionear hỗ trợ import Overleaf ZIP                        | Track: bao nhiêu user import ZIP vs tạo mới; retention sau 1 tuần   |
+| A4: Integrity guardrail (L2) đủ tin cậy                   | Threshold 0.85 có thể reject valid paraphrase hoặc miss subtle drift      | Code có `check_integrity()` + tests; chưa calibrate domain | Eval dataset 50 đoạn academic: measure false positive/negative rate |
+| A5: User tin diff suggestion đủ để Accept                 | Nếu reject rate >80%, AI leverage point vô nghĩa                          | Có L4 revision log API; chưa đủ data production            | Analytics: accept/reject ratio per session; follow-up interview     |
+
 
 ### Assumption nguy hiểm nhất nếu tôi đang sai
 
-> _______________________________________________
+> **A3: User sẽ không rời Overleaf** — nếu switching cost quá cao, Arionear chỉ là "nice demo" chứ không phải daily workflow tool. Cần validate sớm: plugin/extension trên Overleaf vs standalone editor.
 
 ---
 
@@ -429,11 +441,14 @@ Job story chưa có research vẫn chỉ là **giả thuyết tốt hơn**, chư
 
 ### Ghi nhanh sau khi nghe bàn phản biện
 
-| Ý phản biện tôi nghe được | Nó chạm vào phần nào? | Tôi sẽ giữ / sửa gì? |
-|---|---|---|
-| | | |
-| | | |
-| | | |
+
+| Ý phản biện tôi nghe được                                                         | Nó chạm vào phần nào? | Tôi sẽ giữ / sửa gì?                                                                                                                                                |
+| --------------------------------------------------------------------------------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| "JTBD của bạn có lẫn 'trích dẫn' — đó là job riêng hay sub-job?"                  | Core JTBD             | **Sửa nhẹ:** tách citation verify thành sub-job riêng trong job map (Locate/Monitor), Core JTBD giữ focus "nâng chất lượng bản thảo" bao quát                       |
+| "ChatGPT đã free — vì sao user trả effort migrate sang Arionear?"                 | Alternative + A3      | **Giữ** hypothesis nhưng thêm: giá trị chính là **trust + context**, không phải speed — cần validate A2                                                             |
+| "Prepare+Confirm đau nhưng AI có giải được Confirm không? User vẫn phải đọc diff" | AI leverage point     | **Giữ** — diff giảm cognitive load vs 2-tab compare; integrity flag tự động highlight risk thay vì user tự tìm                                                      |
+| "Nếu không dùng AI, Arionear còn giá trị không?" (câu khó từ Lab 1 pattern)       | Toàn bộ hypothesis    | **Thành thật:** không — editor + compile + citation verify deterministic vẫn có giá trị, nhưng **không đủ moat** vs Overleaf. AI + guardrail mới là differentiation |
+
 
 ---
 
@@ -441,58 +456,109 @@ Job story chưa có research vẫn chỉ là **giả thuyết tốt hơn**, chư
 
 ### Sau khi nghe phản biện, tôi thay đổi gì?
 
-- [ ] Giữ nguyên `job executor`
-- [ ] Sửa `job executor`
-- [ ] Giữ nguyên `core JTBD`
-- [ ] Sửa `core JTBD`
-- [ ] Giữ nguyên `AI leverage point`
-- [ ] Sửa `AI leverage point`
-- [ ] Giữ nguyên `product hypothesis`
-- [ ] Sửa `product hypothesis`
+- Giữ nguyên `job executor`
+- Sửa `job executor`
+- Giữ nguyên `core JTBD`
+- Sửa `core JTBD`
+- Giữ nguyên `AI leverage point`
+- Sửa `AI leverage point`
+- Giữ nguyên `product hypothesis`
+- Sửa `product hypothesis`
 
 ### Vì sao tôi giữ / sửa?
 
-> _______________________________________________  
-> _______________________________________________
+> Giữ nguyên executor, JTBD, leverage point và hypothesis. Phản biện bàn làm rõ: (1) citation là sub-job trong map, không cần sửa Core JTBD; (2) moat thật là trust+context, không phải speed — đã reflect trong hypothesis; (3) nếu không có AI, product yếu vs Overleaf — đây là risk cần ghi trong A3, không phải lý do đổi JTBD.
 
 ### Version cuối cùng tôi nộp
 
 **Job executor:**  
-> _______________________________________________
+
+> Graduate student / postdoc đang trực tiếp soạn và chỉnh sửa bản thảo LaTeX của mình trước deadline nộp journal
 
 **Core JTBD:**  
-> _______________________________________________
+
+> Nâng chất lượng bản thảo học thuật (văn phong, cấu trúc, trích dẫn) để sẵn sàng nộp tạp chí — mà không làm sai lệch ý nghĩa khoa học hay số liệu gốc
 
 **2 bước đau nhất trong workflow:**  
-> _______________________________________________
+
+> 1. **Prepare** — mất context khi copy-paste sang AI generic
+> 2. **Confirm** — không có cách nhanh verify suggestion không thay đổi claim/số liệu
 
 **AI leverage point chính:**  
-> _______________________________________________
+
+> Prepare → Confirm loop: Style Agent + full LaTeX context + inline diff + integrity guardrail (L1–L3) — thay workflow ChatGPT copy-paste + so sánh thủ công
 
 **Product hypothesis:**  
-> _______________________________________________
+
+> Nếu giúp postdoc polish manuscript ở bước Prepare+Confirm bằng contextual diff có guardrail, họ chuyển từ ChatGPT sang Arionear vì polish nhanh hơn mà không lo fabrication — mọi thay đổi visible và reversible
 
 **Assumption cần validate đầu tiên:**  
-> _______________________________________________
+
+> **A3:** User có chịu migrate từ Overleaf không — nếu switching cost quá cao, cả hypothesis sập dù AI leverage point đúng
 
 ---
 
 ## Checklist trước khi nộp
 
-- [ ] Tôi đã khoanh đúng 1 lát cắt cụ thể của dự án.
-- [ ] Tôi đã phân biệt được `job executor` với buyer / influencer.
-- [ ] `Core JTBD` của tôi không nhét solution vào câu.
-- [ ] Tôi đã viết đủ 3 `job stories`.
-- [ ] Tôi đã điền `JTBD lite map` và khoanh ra 2 bước đau nhất.
-- [ ] Tôi đã chỉ ra `AI leverage point` thay vì nhảy thẳng vào feature list.
-- [ ] Tôi đã ghi rõ `assumptions to validate`.
-- [ ] Tôi đã sửa version cuối sau khi share trong bàn.
+- Tôi đã khoanh đúng 1 lát cắt cụ thể của dự án.
+- Tôi đã phân biệt được `job executor` với buyer / influencer.
+- `Core JTBD` của tôi không nhét solution vào câu.
+- Tôi đã viết đủ 3 `job stories`.
+- Tôi đã điền `JTBD lite map` và khoanh ra 2 bước đau nhất.
+- Tôi đã chỉ ra `AI leverage point` thay vì nhảy thẳng vào feature list.
+- Tôi đã ghi rõ `assumptions to validate`.
+- Tôi đã sửa version cuối sau khi share trong bàn.
 
 ---
 
 ## Nếu còn thời gian / làm về nhà
 
-- Phỏng vấn nhanh 1 người dùng thật để kiểm xem `job story` nào là sát nhất.
-- So sánh `current alternatives` với project của nhóm theo 3 tiêu chí: nhanh hơn, rẻ hơn, tin hơn.
-- Tự hỏi lại một câu khó: **nếu không dùng AI, project này còn tạo giá trị không?**
-- Nếu câu trả lời là "không", hãy xem lại liệu nhóm đang giải **job thật** hay chỉ đang tìm chỗ để nhét AI.
+### 1. Phỏng vấn nhanh 1 người dùng thật để kiểm job story
+
+**Kế hoạch:** Hỏi 1 postdoc/GS trong lab hoặc cohort AI20K:
+
+
+| Câu hỏi                                                             | Mục đích                     | Job story nào test                      |
+| ------------------------------------------------------------------- | ---------------------------- | --------------------------------------- |
+| "Lần gần nhất bạn sửa paper trước deadline, bạn làm gì đầu tiên?"   | Validate workflow thực       | JS1 vs JS2 — polish hay citation trước? |
+| "Bạn có dùng ChatGPT sửa paper không? Lo gì nhất?"                  | Validate A2 (pain đủ đau)    | JS1 — fear of fabrication               |
+| "Bạn có chịu chuyển từ Overleaf sang tool mới không? Điều kiện gì?" | Validate A3 (switching cost) | Migration assumption                    |
+
+
+### 2. So sánh alternatives theo 3 tiêu chí: nhanh hơn, rẻ hơn, tin hơn
+
+
+| Alternative               | Nhanh hơn?             | Rẻ hơn?                  | Tin hơn (academic integrity)?   |
+| ------------------------- | ---------------------- | ------------------------ | ------------------------------- |
+| ChatGPT copy-paste        | ✅ Rất nhanh            | ✅ Free                   | ❌ Không guardrail               |
+| Overleaf + tự sửa         | ❌ Chậm (polish tay)    | ✅ Free tier              | ✅ User kiểm soát 100%           |
+| Language editing service  | ❌ 3–7 ngày             | ❌ $200–500               | ✅ Professional, trusted         |
+| **Arionear (hypothesis)** | ✅ Nhanh (AI) + context | ✅ Free tier (OpenRouter) | ✅ Diff + guardrail + human gate |
+
+
+**Kết luận:** Arionear chỉ thắng nếu **tin hơn ChatGPT** ở mức tương đương **nhanh hơn Overleaf** — đúng positioning "assisted editing with integrity", không compete speed với ChatGPT.
+
+### 3. Nếu không dùng AI, project này còn tạo giá trị không?
+
+
+| Thành phần không cần AI              | Giá trị còn lại                                 | Đủ moat vs Overleaf?               |
+| ------------------------------------ | ----------------------------------------------- | ---------------------------------- |
+| LaTeX editor + multi-file            | Có — nhưng Overleaf tốt hơn (collab, templates) | ❌ Không                            |
+| PDF compile + SyncTeX                | Có — tiện                                       | ❌ Overleaf có                      |
+| Citation verify (deterministic L1–3) | Có — unique                                     | ⚠️ Một phần — có thể làm extension |
+| Diff gate UI                         | Có — nhưng cần content để diff                  | ❌ Không standalone                 |
+
+
+**Kết luận thành thật:** Không có AI, Arionear **không đủ moat** để kéo user rời Overleaf. Giá trị differentiation nằm ở **AI + guardrail + context trong editor** — đúng leverage point đã chọn. Nếu AI layer yếu hoặc user không tin guardrail, project cần pivot (ví dụ: Overleaf plugin thay vì standalone editor).
+
+### 4. Expectation shift từ Lab 1 áp dụng cho Arionear
+
+
+| Bài học Stack Overflow (Lab 1)             | Áp dụng cho Arionear                                                                         |
+| ------------------------------------------ | -------------------------------------------------------------------------------------------- |
+| Entry point chuyển vào workflow (IDE)      | Arionear đặt AI **trong editor LaTeX**, không tách chatbot — đúng hướng                      |
+| Generic AI "đủ tốt" xóa sổ phân khúc basic | ChatGPT free có thể xóa sổ "polish đơn giản" — Arionear phải thắng ở **integrity + context** |
+| Moat cũ (network effect) không cứu được    | Overleaf network effect mạnh — Arionear không compete collab, compete **trust layer**        |
+| Đừng bolt AI lên entry point cũ            | OverflowAI trên website = sai; Arionear embed AI trong editor = đúng pattern Copilot         |
+
+
